@@ -77,20 +77,6 @@ run_visualization(SAMPLE_IMAGE)
 ### Sample Output Image
 ![Sample Segmentation Output](images/sample_output.png)
 
-### Data Analysis
-Using QGIS, we conducted raster analysis to visualize and quantify walkability. We created cost-distance maps that reveal how walkability scores correlate with accessibility to trolley stations. These maps also highlight significant trends, such as the disparity in walkability between gridded neighborhoods and cul-de-sacs.
-
-![cost distance](images/cost_distance.png)
-
-## Key Findings
-The adjusted walkability index indicates critical insights about urban fabric and infrastructure around trolley stations. For example, the **Clairemont Drive Trolley Station** demonstrates notably poor walkability, which reduces its effective catchment area. Conversely, neighborhoods designed with a gridded layout tend to exhibit higher walkability scores, emphasizing the role of urban design in facilitating pedestrian movement.
-
-## Visual Insights
-### Top and Bottom 5 Adjusted Walkability Index Locations
-The following plot illustrates the geographic locations of the top 5 and bottom 5 adjusted walkability index points in downtown San Diego:
-
-![Top and Bottom 5 Adjusted Walkability Index Locations](images/top5_bot5.png)
-
 ### Adjusted Walkability DataFrame
 The final DataFrame created from the semantic segmentation of street images includes various adjusted factors impacting walkability:
 
@@ -172,6 +158,20 @@ The final DataFrame created from the semantic segmentation of street images incl
     </tbody>
   </table>
 </div>
+
+### Data Analysis
+Using QGIS, we conducted raster analysis to visualize and quantify walkability. We created cost-distance maps that reveal how walkability scores correlate with accessibility to trolley stations. These maps also highlight significant trends, such as the disparity in walkability between gridded neighborhoods and cul-de-sacs.
+
+![cost distance](images/cost_distance.png)
+
+## Key Findings
+The adjusted walkability index indicates critical insights about urban fabric and infrastructure around trolley stations. For example, the **Clairemont Drive Trolley Station** demonstrates notably poor walkability, which reduces its effective catchment area. Conversely, neighborhoods designed with a gridded layout tend to exhibit higher walkability scores, emphasizing the role of urban design in facilitating pedestrian movement.
+
+## Visual Insights
+### Top and Bottom 5 Adjusted Walkability Index Locations
+The following plot illustrates the geographic locations of the top 5 and bottom 5 adjusted walkability index points in downtown San Diego:
+
+![Top and Bottom 5 Adjusted Walkability Index Locations](images/top5_bot5.png)
 
 ## Discussion
 The results underscore the necessity for targeted urban planning interventions. Our analysis provides a replicable framework for assessing urban walkability, making it a valuable resource for city planners and policymakers. Future research should focus on validating these findings through ground-truthing and expanding the geographic scope of the study to include additional trolley stations.
