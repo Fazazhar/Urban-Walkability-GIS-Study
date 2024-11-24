@@ -1,7 +1,7 @@
 # From Trolley Stops to Walkable Blocks: Machine Learning Insights into San Diego’s Urban Fabric
 
 ## Overview
-This project analyzes walkability around trolley stations in downtown San Diego, leveraging machine learning techniques on street-level imagery. The goal is to enhance urban planning by identifying areas with varying levels of walkability using methods like semantic segmentation and spatial analysis. The full jupyter notebook for this project can be accessed [here](final_script.ipynb). Due to the size limitations of GitHub, you need to download the layers folder, which contains the necessary shapefiles to run the script, which can be accessed [here](https://drive.google.com/drive/folders/1va1CB1Mpu3_ARyzBV6BOG20ov8-rxumj?usp=sharing).
+This project analyzes walkability around trolley stations in downtown San Diego, leveraging machine learning techniques on street-level imagery. The goal is to enhance urban planning by identifying areas with varying levels of walkability using methods like semantic segmentation and spatial analysis. The full jupyter notebook for this project can be accessed [here](final_script.ipynb). Due to the size limitations of GitHub, you need to download the layers folder, which contains the necessary shapefiles to run the script, which can be accessed [here](https://drive.google.com/drive/folders/1va1CB1Mpu3_ARyzBV6BOG20ov8-rxumj?usp=sharing). Additionally, the project can also be found in the [UCSD's ArcGIS collection](https://ucsdonline.maps.arcgis.com/home/item.html?id=1ac5990dab0847a7aa9d5414c47b145c).
 
 ## Team Members
 - [Daniel Pryke](https://www.linkedin.com/in/danielpryke/)
