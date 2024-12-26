@@ -4,9 +4,9 @@
 This project analyzes walkability around trolley stations in downtown San Diego, leveraging machine learning techniques on street-level imagery. The goal is to enhance urban planning by identifying areas with varying levels of walkability using methods like semantic segmentation and spatial analysis. The full jupyter notebook for this project can be accessed [here](final_script.ipynb). Due to the size limitations of GitHub, you need to download the layers folder, which contains the necessary shapefiles to run the script, which can be accessed [here](https://drive.google.com/drive/folders/1va1CB1Mpu3_ARyzBV6BOG20ov8-rxumj?usp=sharing). Additionally, the project can also be found in the [UCSD's ArcGIS collection](https://ucsdonline.maps.arcgis.com/home/item.html?id=1ac5990dab0847a7aa9d5414c47b145c).
 
 ## Contributors
+- [Farrel Azhar](https://www.linkedin.com/in/farrel-azhar-6b8179236/)
 - [Daniel Pryke](https://www.linkedin.com/in/danielpryke/)
 - [Drew Suthipongchai](https://www.linkedin.com/in/peeyapatr/)
-- [Farrel Azhar](https://www.linkedin.com/in/farrel-azhar-6b8179236/)
 
 ## Abstract
 The study integrates spatial analysis with visual classification techniques to assess and enhance urban walkability around trolley stops in downtown San Diego. Using Google Street View images, we perform network analysis to define catchment areas and evaluate walkability based on various factors.
